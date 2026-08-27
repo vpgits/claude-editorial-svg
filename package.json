@@ -1,0 +1,21 @@
+{
+  "name": "claude-editorial-svg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Claude Code skill that generates editorial SVG illustrations for blog posts and articles — flat field, torn paper, hand-drawn ink, one accent.",
+  "license": "MIT",
+  "author": "vpgits",
+  "homepage": "https://github.com/vpgits/claude-editorial-svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpgits/claude-editorial-svg.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "examples": "node skills/editorial-svg/scripts/build.ts skills/editorial-svg/examples",
+    "validate": "claude plugin validate . --strict && claude plugin validate skills --strict"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-editorial-svg",
+  "description": "Editorial SVG illustration skill for Claude Code — hand-drawn article artwork in a flat-field / paper / ink / accent system.",
+  "owner": {
+    "name": "vpgits",
+    "url": "https://github.com/vpgits"
+  },
+  "plugins": [
+    {
+      "name": "editorial-svg",
+      "source": "./",
+      "description": "Generate editorial SVG illustrations — blog thumbnails, article artwork, OG images — from a seeded, dependency-free primitive library in a restrained flat-field / paper / ink / accent visual system.",
+      "category": "design",
+      "homepage": "https://github.com/vpgits/claude-editorial-svg"
+    }
+  ]
+}

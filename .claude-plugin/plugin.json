@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "editorial-svg",
+  "version": "1.0.0",
+  "description": "Generate editorial SVG illustrations — blog thumbnails, article artwork, OG images — from a seeded, dependency-free primitive library in a restrained flat-field / paper / ink / accent visual system.",
+  "author": {
+    "name": "vpgits",
+    "url": "https://github.com/vpgits"
+  },
+  "homepage": "https://github.com/vpgits/claude-editorial-svg",
+  "repository": "https://github.com/vpgits/claude-editorial-svg",
+  "license": "MIT",
+  "keywords": ["svg", "illustration", "editorial-illustration", "thumbnails", "design", "generative-art"]
+}
